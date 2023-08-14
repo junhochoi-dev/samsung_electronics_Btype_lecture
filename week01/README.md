@@ -1,5 +1,17 @@
 ## 1주차 STL, 비트 연산, 연결 리스트
 
+<다양한 자료구조>
+ArrayList : https://www.codetree.ai/missions/6/problems/dynamic-array-concept/introduction
+LinkedList : https://www.codetree.ai/missions/6/problems/integer-command-processing-8/introduction
+Stack : https://www.codetree.ai/missions/6/problems/process-numeric-commands/introduction
+Queue : https://www.codetree.ai/missions/6/problems/process-numeric-commands-2/introduction
+Deque : https://www.codetree.ai/missions/6/problems/integer-command-processing-3/introduction
+HashMap : https://www.codetree.ai/missions/8/problems/hashmap-basic/introduction
+TreeMap : https://www.codetree.ai/missions/8/problems/treemap-basic/introduction
+HashSet : https://www.codetree.ai/missions/8/problems/hashset-basic/introduction
+TreeSet : https://www.codetree.ai/missions/8/problems/treeset-basic/introduction
+Priority Queue : https://www.codetree.ai/missions/8/problems/process-numeric-commands-6/introduction
+
 <br><br><br>
 
 ## 1. 새로운 불면증 치료법
@@ -28,7 +40,7 @@
 ## 2. 10726 이진수 표현
 
 ※ SW expert 아카데미의 문제를 무단 복제하는 것을 금지합니다.
- 
+
 정수 N, M 이 주어질 때, M의 이진수 표현의 마지막 N 비트가 모두 1로 켜져 있는지 아닌지를 판별하여 출력하라.
 
 [입력]
@@ -57,7 +69,7 @@
 암호문 뭉치를 급히 수정해야 할 일이 발생했는데, 암호문은 특수 제작된 처리기로만 수정이 가능하다.
 
 처리기는 다음과 같이 3개의 명령어로 제어한다.
- 
+
 1. I(삽입) x, y, s : 앞에서부터 x번째 암호문 바로 다음에 y개의 암호문을 삽입한다. s는 덧붙일 암호문들이다.[ ex) I 3 2 123152 487651 ]
 
 2. D(삭제) x, y : 앞에서부터 x번째 암호문 바로 다음부터 y개의 암호문을 삭제한다.[ ex) D 4 4 ]
@@ -88,34 +100,33 @@
 
 ※ SW Expert 아카데미의 문제를 무단 복제하는 것을 금지합니다.
 
-
 N개의 10억 이하 자연수로 이뤄진 수열이 주어진다. 이 수열은 완성된 것이 아니라 M번의 편집을 거쳐 완성된다고 한다.
 
 완성된 수열에서 인덱스 L의 데이터를 출력하는 프로그램을 작성하시오.
 
 다음은 미완성 수열과 편집의 예이다.
 
-|인덱스|0|1|2|3|4|
-|-|-|-|-|-|-|
-|수열|1|2|3|4|5|
+| 인덱스 | 0   | 1   | 2   | 3   | 4   |
+| ------ | --- | --- | --- | --- | --- |
+| 수열   | 1   | 2   | 3   | 4   | 5   |
 
 I 2 7 -> 2번 인덱스 앞에 7을 추가하고, 한 칸 씩 뒤로 이동한다.
 
-|인덱스|0|1|2|3|4|5|
-|-|-|-|-|-|-|-|
-|수열|1|2|7|3|4|5|
+| 인덱스 | 0   | 1   | 2   | 3   | 4   | 5   |
+| ------ | --- | --- | --- | --- | --- | --- |
+| 수열   | 1   | 2   | 7   | 3   | 4   | 5   |
 
 D 4 -> 4번 인덱스 자리를 지우고, 한 칸 씩 앞으로 이동한다.
- 
-|인덱스|0|1|2|3|4|
-|-|-|-|-|-|-|
-|수열|1|2|7|3|5|
+
+| 인덱스 | 0   | 1   | 2   | 3   | 4   |
+| ------ | --- | --- | --- | --- | --- |
+| 수열   | 1   | 2   | 7   | 3   | 5   |
 
 C 3 8 -> 3번 인덱스 자리를 8로 바꾼다.
 
-|인덱스|0|1|2|3|4|
-|-|-|-|-|-|-|
-|수열|1|2|7|8|5|
+| 인덱스 | 0   | 1   | 2   | 3   | 4   |
+| ------ | --- | --- | --- | --- | --- |
+| 수열   | 1   | 2   | 7   | 8   | 5   |
 
 만약 편집이 끝난 후 L이 존재하지 않으면 -1을 출력한다.
 
