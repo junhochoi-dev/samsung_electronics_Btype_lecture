@@ -11,7 +11,7 @@
 
 <br><br>
 
-# 1주차 - STL, 비트 연산, 연결 리스트
+# week01 - STL, Bitwise Operation, Linked List
 
 ### PRACTICE
 
@@ -26,7 +26,7 @@
 
 <br><br>
 
-# 2주차 - 트리, 그래프
+# week02 - Tree, Graph
 
 ### PRACTICE
 
@@ -39,3 +39,18 @@
 
 1. 섬 지키기
 2. 프로세서 연결하기
+
+<br><br>
+
+# week03 - Dynamic Programming, Heap
+
+### PRACTICE
+
+1. 0/1 knapsack
+2. 최장 공통 부분 수열
+3. 힙
+4. 중간값
+
+### ACTUAL
+
+1. 리스트 복사

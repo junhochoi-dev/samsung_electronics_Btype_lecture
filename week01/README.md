@@ -1,4 +1,4 @@
-## 1주차 STL, 비트 연산, 연결 리스트
+# week01 - STL, Bitwise Operation, Linked List
 
 <다양한 자료구조>
 ArrayList : https://www.codetree.ai/missions/6/problems/dynamic-array-concept/introduction
