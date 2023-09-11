@@ -1,4 +1,4 @@
-# week01 - STL, Bitwise Operation, Linked List
+# Week01 - STL, Bitwise Operation, Linked List
 
 <다양한 자료구조>
 ArrayList : https://www.codetree.ai/missions/6/problems/dynamic-array-concept/introduction
