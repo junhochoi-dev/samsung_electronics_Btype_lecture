@@ -87,6 +87,8 @@
 
 1. 긴 사다리 게임
 
+<br><br>
+
 # Week06 - Trie & Dijkstra
 
 ### PRACTICE
