@@ -86,3 +86,15 @@
 ### ACTUAL
 
 1. 긴 사다리 게임
+
+# Week06 - Trie & Dijkstra
+
+### PRACTICE
+
+1. K 번째 접미어
+2. K 번째 문자열
+3. 물류 허브
+
+### ACTUAL
+
+1. AI 로봇
